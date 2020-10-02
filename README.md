@@ -1,12 +1,18 @@
 # DREAMI-Fitness-Tracker
 
-# Unit 17 Nosql Homework: Workout Tracker
+I have created a workout tracker using a Mongo database with a Mongoose schema and handle routes with Express.
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+## Link to App
+
+https://pure-springs-32692.herokuapp.com/
+
+![Screen Shot 2020-10-02 at 11 21 51 AM](https://user-images.githubusercontent.com/65183415/94956859-b356fb80-04a1-11eb-9e17-741782c1a4f5.png)
+
+![Screen Shot 2020-10-02 at 11 21 31 AM](https://user-images.githubusercontent.com/65183415/94956871-b5b95580-04a1-11eb-99cb-8dfb7b779d67.png)
 
 ## User Story
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
 ## Business Context
 
@@ -24,36 +30,14 @@ The user should be able to:
 
   * View the combined weight of multiple exercises on the `stats` page.
 
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
+## License 
 
-  * [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  * [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
+## Technology
 
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We want you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the GitHub repository
+```
+Mongo DB
+Node JS
+Express
+```
